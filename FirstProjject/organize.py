@@ -34,6 +34,6 @@ for filename in os.listdir(os.getcwd()):
             extFound = True
 
 
-
+#if no ext is found
 if extFound == False:
     print("No files were found for the ext selected")
